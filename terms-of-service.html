@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service — Fimes Uploader</title>
+  <meta name="description" content="Terms of Service for the Fimes Uploader app." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">🎬</span>
+        <span>Fimes Uploader</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-service.html">Terms of Service</a></li>
+        <li><a href="mailto:fimessoon@gmail.com" class="btn btn-primary btn-sm">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Terms of Service</h1>
+        <p class="updated">Last updated: <span id="updated-date">August 5, 2026</span></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container prose">
+        <p>
+          These Terms of Service ("Terms") govern your use of the Fimes Uploader application
+          ("the App"). By accessing or using the App, you agree to be bound by these Terms.
+          If you do not agree to these Terms, please do not use the App.
+        </p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>
+          By creating an account, connecting your TikTok account, or otherwise using the App,
+          you confirm that you have read, understood, and agree to these Terms and our
+          <a href="privacy-policy.html">Privacy Policy</a>.
+        </p>
+
+        <h2>2. Description of Service</h2>
+        <p>
+          Fimes Uploader provides tools for editing, organizing, and managing your own TikTok
+          videos. The App works with your explicit permission and requires you to connect your
+          TikTok account to access the features described in the App.
+        </p>
+
+        <h2>3. Account Responsibility</h2>
+        <ul>
+          <li>You are responsible for maintaining the confidentiality of your TikTok login credentials.</li>
+          <li>You must only connect accounts that you own or are authorized to manage.</li>
+          <li>You agree to comply with TikTok's Terms of Service and Community Guidelines at all times.</li>
+        </ul>
+
+        <h2>4. Acceptable Use</h2>
+        <p>You agree not to use the App to:</p>
+        <ul>
+          <li>Violate any applicable law or regulation.</li>
+          <li>Infringe the intellectual property or privacy rights of others.</li>
+          <li>Upload, distribute, or edit content that is unlawful, defamatory, or harmful.</li>
+          <li>Attempt to disrupt, overload, or compromise the App's security or functionality.</li>
+          <li>Use the App in any way that violates TikTok's policies.</li>
+        </ul>
+
+        <h2>5. Intellectual Property</h2>
+        <p>
+          The App, including its design, code, and original content, is owned by Fimes Uploader
+          and is protected by applicable intellectual property laws. You may not copy, modify,
+          distribute, or reverse engineer the App, except as permitted by law.
+        </p>
+
+        <h2>6. Disclaimer of Warranties</h2>
+        <p>
+          The App is provided on an "as is" and "as available" basis without warranties of any
+          kind, whether express or implied, including but not limited to implied warranties of
+          merchantability, fitness for a particular purpose, or non-infringement. We do not
+          warrant that the App will be uninterrupted, error-free, or secure at all times.
+        </p>
+
+        <h2>7. Limitation of Liability</h2>
+        <p>
+          To the maximum extent permitted by law, Fimes Uploader shall not be liable for any
+          indirect, incidental, special, consequential, or punitive damages, or any loss of
+          profits, data, or goodwill arising out of or related to your use of the App.
+        </p>
+
+        <h2>8. Third-Party Services</h2>
+        <p>
+          The App may integrate with third-party services (including TikTok). We are not
+          responsible for the practices of such services, and your use of them is subject to
+          their own terms and privacy policies.
+        </p>
+
+        <h2>9. Termination</h2>
+        <p>
+          We may suspend or terminate your access to the App at any time, with or without notice,
+          if you violate these Terms or for any other reason. You may stop using the App at any
+          time and disconnect your TikTok account.
+        </p>
+
+        <h2>10. Changes to These Terms</h2>
+        <p>
+          We may update these Terms from time to time. Changes take effect when posted on this
+          page with a revised "Last updated" date. Your continued use of the App after changes
+          constitutes acceptance of the updated Terms.
+        </p>
+
+        <h2>11. Governing Law</h2>
+        <p>
+          These Terms shall be governed by and construed in accordance with applicable laws,
+          without regard to conflict of law principles.
+        </p>
+
+        <h2>12. Contact Us</h2>
+        <p>
+          If you have any questions about these Terms, please contact us at:
+          <a href="mailto:fimessoon@gmail.com">fimessoon@gmail.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Fimes Uploader. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-service.html">Terms of Service</a></li>
+        <li><a href="mailto:fimessoon@gmail.com">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    var d = new Date();
+    document.getElementById("updated-date").textContent = d.toLocaleDateString("en-US", {
+      year: "numeric", month: "long", day: "numeric"
+    });
+  </script>
+</body>
+</html>
